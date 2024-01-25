@@ -8,6 +8,13 @@ h1{
     border-radius: .5em;
     text-align: center;
     padding: .7em 1em;
+    font-family: cursive;
+}
+
+p{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 header{ 
@@ -117,9 +124,21 @@ section{
     border-radius: 0.6em;
     height: 30vh;
     width: 20vh;
-    background-color: rgb(182, 175, 175);
+    background-color: whitesmoke;
+    border: 3px solid gray;
 }
 
 h2{
     margin: 0;
+    font-family: monospace;
+}
+
+.about-title{
+    font-size: 30px;
+}
+.logo{
+    position: absolute;
+    scale: 2.1;
+    top: 25px;
+    left: 290px;
 }
